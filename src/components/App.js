@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './../styles/App.css';
 
 const App = (props) => {
-  const[isVisible, setIsVisible] = useState(false);
+  const[isVisible, setIsVisible] = useState(true);
 
   const toggleVisibility = () => {
     setIsVisible(prevState => !prevState);
